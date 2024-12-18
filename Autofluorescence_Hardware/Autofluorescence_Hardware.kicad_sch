@@ -107,6 +107,372 @@
 				)
 			)
 		)
+		(symbol "D_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D1"
+				(at 1.2701 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "380nm"
+				(at -1.2699 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "SBT-10X-UV-A120-AHXXX-22:SBT-10X-UV-A120-AHXXX-22"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://download.luminus.com/datasheets/Luminus_SBT-10X-UV_Datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "D_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D4"
+				(at 1.2701 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "390nm"
+				(at -1.2699 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "SBT-10X-UV-A120-AHXXX-22:SBT-10X-UV-A120-AHXXX-22"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://download.luminus.com/datasheets/Luminus_SBT-10X-UV_Datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -250,23 +616,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D6"
+				(at 1.2701 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
+			(property "Value" "400nm"
+				(at -1.2699 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SBT-10X-UV-A120-AHXXX-22:SBT-10X-UV-A120-AHXXX-22"
 				(at 0 0 0)
 				(effects
 					(font
@@ -275,7 +643,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://download.luminus.com/datasheets/Luminus_SBT-10X-UV_Datasheet.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -397,6 +765,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2077,6 +2463,12 @@
 		(uuid "31cc526a-33dd-4596-8499-e2fc8e6b33b8")
 	)
 	(junction
+		(at 109.22 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a84fa45-dead-471f-9860-bc9db3e889c6")
+	)
+	(junction
 		(at 105.41 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2135,6 +2527,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95844360-a9f3-42e5-ae00-4e6c5337dd37")
+	)
+	(junction
+		(at 109.22 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2b13e43-ccc8-43d6-9c61-54ab570710c8")
 	)
 	(junction
 		(at 102.87 45.72)
@@ -2197,6 +2595,12 @@
 		(uuid "d8c8859b-c2c8-416a-acd0-b6989c44253d")
 	)
 	(junction
+		(at 109.22 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d96a3dce-7ce0-4efa-9683-9e29299899fd")
+	)
+	(junction
 		(at 48.26 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2229,6 +2633,16 @@
 			(type default)
 		)
 		(uuid "01e770db-9896-4cd9-99bf-2f4c660e72c8")
+	)
+	(wire
+		(pts
+			(xy 109.22 85.09) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02eb45a8-8de5-4701-a673-855fbd0952d5")
 	)
 	(wire
 		(pts
@@ -2402,6 +2816,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 38.1) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238554a5-ae33-493c-9cdd-8ce6f523e3ce")
+	)
+	(wire
+		(pts
 			(xy 137.16 77.47) (xy 137.16 83.82)
 		)
 		(stroke
@@ -2552,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 38.1) (xy 109.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9ffbbb-dd41-47b9-a7de-72c3902031f1")
+	)
+	(wire
+		(pts
 			(xy 38.1 125.73) (xy 38.1 123.19)
 		)
 		(stroke
@@ -2679,6 +3113,16 @@
 			(type default)
 		)
 		(uuid "887e8e5d-76b4-4f06-8620-0b6331a39247")
+	)
+	(wire
+		(pts
+			(xy 109.22 133.35) (xy 109.22 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88ec9f04-88b4-43f3-a2a3-de94ce76cf19")
 	)
 	(wire
 		(pts
@@ -2892,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 133.35) (xy 109.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c830d2b9-b8fb-4b06-99a4-76a0a989641c")
+	)
+	(wire
+		(pts
 			(xy 102.87 90.17) (xy 109.22 90.17)
 		)
 		(stroke
@@ -2939,6 +3393,16 @@
 			(type default)
 		)
 		(uuid "d4caebf6-3fd5-4bf9-9bb1-86bd00bdc7d8")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c2aed9-ca3d-4842-a6b7-2939e9e98fd0")
 	)
 	(wire
 		(pts
@@ -4165,6 +4629,9 @@
 		(pin "1"
 			(uuid "29568fdd-e611-46ba-8a98-0860c8e8111e")
 		)
+		(pin "3"
+			(uuid "d6219371-9373-404d-8594-6eef757c326e")
+		)
 		(instances
 			(project "Autofluorescence_Hardware"
 				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
@@ -4336,6 +4803,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D_2")
 		(lib_id "Device:D")
 		(at 121.92 85.09 90)
 		(unit 1)
@@ -4413,6 +4881,9 @@
 		)
 		(pin "1"
 			(uuid "222e060c-2a59-4faf-9643-746a6e2d51a4")
+		)
+		(pin "3"
+			(uuid "681d82d5-34f0-4165-a161-86a12896eb6e")
 		)
 		(instances
 			(project "Autofluorescence_Hardware"
@@ -5169,6 +5640,7 @@
 		)
 	)
 	(symbol
+		(lib_name "D_1")
 		(lib_id "Device:D")
 		(at 121.92 38.1 90)
 		(unit 1)
@@ -5246,6 +5718,9 @@
 		)
 		(pin "1"
 			(uuid "8707246b-acd9-4c3a-8318-546a3e810336")
+		)
+		(pin "3"
+			(uuid "23f99ba9-dc6d-4524-b7cd-0d4c8b681c6d")
 		)
 		(instances
 			(project ""
@@ -6008,19 +6483,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "2d4a6414-e05b-4e68-a0f2-358e8969cc07")
+			(uuid "2d4a6414-e05b-4e68-a0f2-358e8969cc08")
 		)
 		(pin "3"
-			(uuid "88f717ff-b3d0-4913-b62e-5f0625efd676")
+			(uuid "88f717ff-b3d0-4913-b62e-5f0625efd677")
 		)
 		(pin "1"
-			(uuid "117a520b-c991-451d-b5d0-51e1ae3db70e")
+			(uuid "117a520b-c991-451d-b5d0-51e1ae3db70f")
 		)
 		(pin "1"
-			(uuid "16b6c350-9815-4d57-a916-c3527770d881")
+			(uuid "16b6c350-9815-4d57-a916-c3527770d882")
 		)
 		(pin "2"
-			(uuid "7e00f176-b7aa-437d-b4ab-c388d87dd446")
+			(uuid "7e00f176-b7aa-437d-b4ab-c388d87dd447")
 		)
 		(instances
 			(project ""
