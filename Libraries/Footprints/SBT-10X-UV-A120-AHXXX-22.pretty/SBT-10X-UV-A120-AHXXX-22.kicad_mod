@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.524 1.778)
-		(end -1.524 -1.778)
+		(start -2.286 1.778)
+		(end -2.286 -1.778)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "53d24f0c-b352-4cee-9773-1d75bc995402")
 	)
 	(fp_line
-		(start 1.524 -1.778)
-		(end -1.524 -1.778)
+		(start 2.286 -1.778)
+		(end -2.286 -1.778)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "0a495bde-c082-41c8-9663-c956b118ffa9")
 	)
 	(fp_line
-		(start 1.524 -1.778)
-		(end 1.524 1.524)
+		(start 2.286 -1.778)
+		(end 2.286 1.778)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -98,18 +98,8 @@
 		(uuid "fa5b21d3-3e89-4103-8cf1-d148ad2c1b24")
 	)
 	(fp_line
-		(start 1.524 1.524)
-		(end 1.524 1.778)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "fb61b7c9-9d4d-4497-9892-cc1e7d0af17f")
-	)
-	(fp_line
-		(start 1.524 1.778)
-		(end -1.524 1.778)
+		(start 2.286 1.778)
+		(end -2.286 1.778)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -143,16 +133,16 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.03 0)
-		(size 0.34 2.96)
+		(at -1.6 0)
+		(size 0.75 2.96)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "382181bd-e1db-4c44-9ba3-b927167110e7")
 	)
 	(pad "2" smd roundrect
-		(at 1.03 0)
-		(size 0.34 2.96)
+		(at 1.6 0)
+		(size 0.75 2.96)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
@@ -165,5 +155,16 @@
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "29a981e6-9ce5-40c1-b8b3-d821935da45c")
+	)
+	(model "C:/GitHub/MRDT/Electrical/Autofluorescence_Hardware/Libraries/3D/SBT-10X-UV-A120-AH390-22.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

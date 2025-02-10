@@ -2493,12 +2493,6 @@
 		(uuid "6e5cfab2-6fea-4700-915c-cecfaccefd97")
 	)
 	(junction
-		(at 105.41 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73af4b41-6eb5-4331-8fe1-d25e4d6138e5")
-	)
-	(junction
 		(at 102.87 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2653,6 +2647,16 @@
 			(type default)
 		)
 		(uuid "03555a7c-b7b9-43e6-aecd-b8257cf9f170")
+	)
+	(wire
+		(pts
+			(xy 194.31 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04da6029-4bc3-4396-abb6-09aa9cf216d8")
 	)
 	(wire
 		(pts
@@ -2856,6 +2860,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 111.76) (xy 194.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298f7ea3-f473-4cc0-89cf-9d7c4e3a80c8")
+	)
+	(wire
+		(pts
 			(xy 137.16 125.73) (xy 137.16 132.08)
 		)
 		(stroke
@@ -3036,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 125.73) (xy 121.92 125.73)
+			(xy 54.61 125.73) (xy 121.92 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3106,13 +3120,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 125.73) (xy 105.41 125.73)
+			(xy 190.5 109.22) (xy 190.5 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "887e8e5d-76b4-4f06-8620-0b6331a39247")
+		(uuid "88723ffd-c9e0-40be-846c-b5131c7058c9")
 	)
 	(wire
 		(pts
@@ -3233,6 +3247,16 @@
 			(type default)
 		)
 		(uuid "a6608a97-cfed-4765-ab66-c7ccda6b1430")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a35165-1f28-4f30-8006-8d6634bfc07d")
 	)
 	(wire
 		(pts
@@ -4140,7 +4164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 190.5 67.31 0)
 			(effects
 				(font
@@ -4355,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_863ECR_DIO"
+		(property "Footprint" "autofluorescence_board:SOIC_863ECR_DIO"
 			(at 57.15 90.17 0)
 			(effects
 				(font
@@ -4669,7 +4693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal"
 			(at 199.39 80.01 0)
 			(effects
 				(font
@@ -4737,7 +4761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_863ECR_DIO"
+		(property "Footprint" "autofluorescence_board:SOIC_863ECR_DIO"
 			(at 57.15 138.43 0)
 			(effects
 				(font
@@ -4889,6 +4913,76 @@
 			(project "Autofluorescence_Hardware"
 				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 199.39 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57074abb-d55c-409a-9915-9b1a93d65d74")
+		(property "Reference" "Conn3"
+			(at 203.2 111.7599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 203.2 114.2999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal"
+			(at 199.39 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aeff84dc-32af-4435-b675-ae3ca54e6ab7")
+		)
+		(pin "2"
+			(uuid "5cbb7806-fab4-4e54-ad47-ca321136947e")
+		)
+		(instances
+			(project "Autofluorescence_Hardware"
+				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
+					(reference "Conn3")
 					(unit 1)
 				)
 			)
@@ -5064,7 +5158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 77.47 0)
 			(effects
 				(font
@@ -5122,7 +5216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "380nm"
 			(at 107.95 28.4479 0)
 			(effects
 				(font
@@ -5131,7 +5225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 110.49 30.48 0)
 			(effects
 				(font
@@ -5499,6 +5593,72 @@
 			(project "Autofluorescence_Hardware"
 				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 190.5 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bfa6ce9-41b7-4bf1-acce-b4d79a881394")
+		(property "Reference" "#PWR019"
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e80cbd7b-76be-46f1-8854-bdf7c1d946ba")
+		)
+		(instances
+			(project "Autofluorescence_Hardware"
+				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6135,6 +6295,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 190.5 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bba97ccb-881f-4829-8125-f8deeabf3f73")
+		(property "Reference" "#PWR018"
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4982623-9324-4b01-9925-feca509a05db")
+		)
+		(instances
+			(project "Autofluorescence_Hardware"
+				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "autofluorescence_board:PAM2863ECR")
 		(at 57.15 43.18 0)
 		(unit 1)
@@ -6160,7 +6386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_863ECR_DIO"
+		(property "Footprint" "autofluorescence_board:SOIC_863ECR_DIO"
 			(at 57.15 43.18 0)
 			(effects
 				(font
@@ -6455,7 +6681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 190.5 54.61 0)
 			(effects
 				(font
@@ -6844,73 +7070,6 @@
 			(project ""
 				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 105.41 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbf43160-7182-49f6-beba-8c5f0957b2af")
-		(property "Reference" "TP3"
-			(at 107.95 121.1579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 107.95 123.6979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 105.41 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d33ad26-67b6-4357-a56c-0b25fb99ceda")
-		)
-		(instances
-			(project "Autofluorescence_Hardware"
-				(path "/15bff5d8-5567-4731-9b94-d21a53ee51ce"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
