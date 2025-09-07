@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AutofluorescenceBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Footprints/AutofluorescenceBoard.pretty")(options "")(descr ""))
+)
