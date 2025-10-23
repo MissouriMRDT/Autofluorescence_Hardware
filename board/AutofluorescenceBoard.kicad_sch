@@ -3799,7 +3799,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 257.81 50.8 0)
 			(effects
 				(font
@@ -4024,7 +4024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PAM2863ECR"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM2863.pdf"
 			(at 59.69 144.78 0)
 			(effects
 				(font
@@ -4384,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PAM2863ECR"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM2863.pdf"
 			(at 59.69 92.71 0)
 			(effects
 				(font
@@ -4538,7 +4538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 209.55 54.61 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PAM2863ECR"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM2863.pdf"
 			(at 59.69 41.91 0)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
 			(at 269.24 140.97 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
 			(at 269.24 134.62 0)
 			(effects
 				(font
@@ -5108,7 +5108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
 			(at 246.38 87.63 0)
 			(effects
 				(font
@@ -5184,7 +5184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
 			(at 269.24 147.32 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal"
 			(at 247.65 115.57 0)
 			(effects
 				(font
@@ -6482,7 +6482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm"
 			(at 269.24 128.27 0)
 			(effects
 				(font
@@ -7010,7 +7010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 209.55 67.31 0)
 			(effects
 				(font
