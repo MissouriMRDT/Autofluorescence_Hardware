@@ -6915,7 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AFA0000/AFA0000C7.pdf"
 			(at 121.92 129.54 0)
 			(effects
 				(font
