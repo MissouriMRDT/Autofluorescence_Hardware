@@ -3199,12 +3199,6 @@
 		(uuid "d84b5959-75c7-4519-9f47-6eeace3817f6")
 	)
 	(junction
-		(at 107.95 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8b7d1a6-63c8-4a1b-acb7-047ba7ee129b")
-	)
-	(junction
 		(at 60.96 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3227,18 +3221,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f20a7e7a-5b3d-4ee6-9469-2ed709a77d32")
-	)
-	(junction
-		(at 107.95 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4f5aeb3-675b-4439-994e-dd28e7e79f6a")
-	)
-	(junction
-		(at 107.95 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fad1545d-9042-483d-936e-6d2bcab046aa")
 	)
 	(junction
 		(at 41.91 41.91)
@@ -3804,7 +3786,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 92.71) (xy 107.95 95.25)
+			(xy 107.95 92.71) (xy 107.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4131,16 +4113,6 @@
 			(type default)
 		)
 		(uuid "bb6465b5-5be2-42ee-acb2-6d60d51c7c6e")
-	)
-	(wire
-		(pts
-			(xy 107.95 95.25) (xy 107.95 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bffc9659-cda8-4edb-9ac3-0d54f7d1088d")
 	)
 	(wire
 		(pts
@@ -7813,7 +7785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ESDALC14-1BF4:ESDALC14-1BF4"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.54 31.75 0)
 			(effects
 				(font
