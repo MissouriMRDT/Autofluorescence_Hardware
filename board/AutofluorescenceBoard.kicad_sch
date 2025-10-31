@@ -5384,7 +5384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AF Board:365nm LED"
 			(at 129.54 31.75 0)
 			(effects
 				(font
@@ -7390,7 +7390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AF Board:490nm LED"
 			(at 130.81 139.7 0)
 			(effects
 				(font
@@ -7529,7 +7529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AF Board:405nm LED"
 			(at 129.54 87.63 0)
 			(effects
 				(font
