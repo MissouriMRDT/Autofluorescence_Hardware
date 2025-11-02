@@ -1,0 +1,219 @@
+(footprint "SRN6045TA-470M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "L3"
+		(at -0.96 -3.808 180)
+		(layer "F.SilkS")
+		(uuid "6bea1019-4d91-4cf5-b6cc-1a3c22e592b2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "47uH"
+		(at 5.644 3.792 180)
+		(layer "F.Fab")
+		(uuid "8c43b768-deb3-4a56-9d08-9795bee10589")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN6045TA.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42b8c3e6-d576-45e8-91f9-e7826c3d9924")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c218b5af-0cbe-4554-8e1f-c344e56500df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8de6a68-6e71-40a8-967c-ffc9610e5f97")
+	)
+	(fp_line
+		(start -3 -2.8)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18958b5f-5e35-4aab-ba19-fee5a77ec0b6")
+	)
+	(fp_line
+		(start -3 2.8)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1b0deea-5980-4fd9-99f6-c137789705df")
+	)
+	(fp_line
+		(start -3 3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "506424d2-cb4a-45e5-bfc2-9980ea7c6f80")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 -2.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f25ef4f6-4878-4239-af50-217c90ec14e0")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 2.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cc5eecb-d068-4f6f-962e-176bf9b21773")
+	)
+	(fp_line
+		(start -3.5 -3.25)
+		(end 3.5 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b76f03d-f8ca-41e4-8c36-6f51681168d2")
+	)
+	(fp_line
+		(start -3.5 3.25)
+		(end -3.5 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7d275d4-ee91-4373-b1f7-3a2161a7b0b7")
+	)
+	(fp_line
+		(start 3.5 -3.25)
+		(end 3.5 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86608d48-c863-47ca-99e0-8243de79ab65")
+	)
+	(fp_line
+		(start 3.5 3.25)
+		(end -3.5 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c295183-50d1-4623-b55a-8673591ada9e")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14e027a0-5553-4c48-be0d-3ba843e1b583")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c427f41-dc00-4e98-abee-da88b558fb0a")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "863ed7db-fb02-4e49-8c74-5fa25607f076")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25bb22d2-24db-449f-8c86-a4680333ffe0")
+	)
+	(pad "1" smd rect
+		(at -2.075 0)
+		(size 2.35 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "93630aab-09b5-44f0-804c-28c590e2ec93")
+	)
+	(pad "2" smd rect
+		(at 2.075 0)
+		(size 2.35 5.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "403be0a6-e16a-400d-954b-c745c972daf8")
+	)
+	(embedded_fonts no)
+	(model "${AUTOFLUORESCENCE}/Libraries/3D/SRN6045TA-470M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
