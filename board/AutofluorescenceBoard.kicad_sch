@@ -4916,7 +4916,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.3"
 			(at 41.91 125.73 0)
 			(effects
 				(font
@@ -7512,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.15"
 			(at 41.91 73.66 0)
 			(effects
 				(font
@@ -8977,7 +8977,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.15"
 			(at 41.91 17.78 0)
 			(effects
 				(font
