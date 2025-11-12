@@ -2300,7 +2300,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:Molex_SL_04"
+		(symbol "MRDT_Connectors:Molex_SL_05"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2315,8 +2315,8 @@
 					)
 				)
 			)
-			(property "Value" "Molex_SL_04"
-				(at 1.27 11.43 0)
+			(property "Value" "Molex_SL_05"
+				(at 1.27 13.97 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2359,9 +2359,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Molex_SL_04_0_1"
+			(symbol "Molex_SL_05_0_1"
 				(rectangle
-					(start 0 10.16)
+					(start 0 12.7)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -2372,9 +2372,9 @@
 					)
 				)
 			)
-			(symbol "Molex_SL_04_1_1"
+			(symbol "Molex_SL_05_1_1"
 				(pin input line
-					(at -5.08 8.89 0)
+					(at -5.08 11.43 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -2392,7 +2392,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 6.35 0)
+					(at -5.08 8.89 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -2410,7 +2410,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 3.81 0)
+					(at -5.08 6.35 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -2428,7 +2428,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 1.27 0)
+					(at -5.08 3.81 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -2438,6 +2438,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2969,6 +2987,305 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -3298,7 +3615,7 @@
 		)
 	)
 	(rectangle
-		(start 173.99 78.74)
+		(start 173.99 71.12)
 		(end 217.17 96.52)
 		(stroke
 			(width 0)
@@ -3677,6 +3994,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 82.55) (xy 190.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11203838-cc5f-4c1e-9974-d128fbfb14ab")
+	)
+	(wire
+		(pts
 			(xy 109.22 144.78) (xy 109.22 147.32)
 		)
 		(stroke
@@ -3847,6 +4174,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 102.87) (xy 238.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e09b8b-f90c-45da-ba2e-9d4c6a86b34d")
+	)
+	(wire
+		(pts
+			(xy 193.04 82.55) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34832dc7-debf-4963-8a33-b1d319e0765c")
+	)
+	(wire
+		(pts
 			(xy 130.81 135.89) (xy 130.81 129.54)
 		)
 		(stroke
@@ -3894,16 +4241,6 @@
 			(type default)
 		)
 		(uuid "3c730385-ee8a-4838-b161-7b199af3cf23")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 193.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41943afc-a273-4ffe-a482-e2cd00510329")
 	)
 	(wire
 		(pts
@@ -3997,7 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 83.82) (xy 193.04 83.82)
+			(xy 189.23 77.47) (xy 193.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4007,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 86.36) (xy 193.04 86.36)
+			(xy 189.23 80.01) (xy 193.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4267,6 +4604,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 107.95) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e7c869-7854-4274-8d80-c6f1f49ad7d2")
+	)
+	(wire
+		(pts
 			(xy 107.95 92.71) (xy 107.95 95.25)
 		)
 		(stroke
@@ -4307,13 +4654,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 88.9) (xy 190.5 90.17)
+			(xy 246.38 96.52) (xy 246.38 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81cc25a9-da77-4017-8a61-23df5b7b0aeb")
+		(uuid "80827879-e120-47ce-b0bc-728ed1bfa8c2")
 	)
 	(wire
 		(pts
@@ -4334,6 +4681,16 @@
 			(type default)
 		)
 		(uuid "82f81fa8-5920-4506-b4ed-249a691cedf6")
+	)
+	(wire
+		(pts
+			(xy 246.38 78.74) (xy 246.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cb97e7-055f-4cfc-ad75-c41c8d26c813")
 	)
 	(wire
 		(pts
@@ -4807,6 +5164,26 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 85.09) (xy 193.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69bdefc-5ea8-4216-a50e-6a92f23e00fa")
+	)
+	(wire
+		(pts
+			(xy 246.38 87.63) (xy 246.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75b75bc-28aa-444f-ab21-c15a86db02dc")
+	)
+	(wire
+		(pts
 			(xy 118.11 77.47) (xy 104.14 77.47)
 		)
 		(stroke
@@ -4877,7 +5254,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 81.28) (xy 193.04 81.28)
+			(xy 189.23 74.93) (xy 193.04 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4945,6 +5322,28 @@
 		)
 		(uuid "feee46b0-b318-434b-8384-23eebe429602")
 	)
+	(global_label "White LED"
+		(shape input)
+		(at 189.23 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05a77451-2c59-49c8-bff4-24663cb54b22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.8106 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ISET 365nm"
 		(shape input)
 		(at 57.15 44.45 180)
@@ -4969,7 +5368,7 @@
 	)
 	(global_label "ISET 490nm"
 		(shape input)
-		(at 189.23 86.36 180)
+		(at 189.23 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4979,7 +5378,7 @@
 		)
 		(uuid "562d93a8-8095-4ec4-893f-2f8abed06f18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8755 86.36 0)
+			(at 174.8755 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5434,7 @@
 	)
 	(global_label "ISET 365nm"
 		(shape input)
-		(at 189.23 81.28 180)
+		(at 189.23 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5045,7 +5444,7 @@
 		)
 		(uuid "a1003349-8338-4f71-8ede-b59fcb6e69da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8755 81.28 0)
+			(at 174.8755 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5456,7 @@
 	)
 	(global_label "ISET 405nm"
 		(shape input)
-		(at 189.23 83.82 180)
+		(at 189.23 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5067,7 +5466,29 @@
 		)
 		(uuid "ade0df75-9402-4dba-8a55-3d1b44b2ab89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.8755 83.82 0)
+			(at 174.8755 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "White LED"
+		(shape input)
+		(at 236.22 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6dd5ac3-5f11-4667-b4bf-40bc06bffd32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.8006 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +6167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_2002412000_02_MOL"
+		(property "Footprint" "AutofluorescenceBoard:CONN_SD-172286-1000_02_MOL"
 			(at 177.8 40.64 0)
 			(effects
 				(font
@@ -6325,6 +6746,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 246.38 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30375e84-5624-42a7-b527-c9a54cc0e4f1")
+		(property "Reference" "D6"
+			(at 250.19 84.1374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 250.19 86.6774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "AutofluorescenceBoard:INS63AT5UW"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S63AT%20Series_V1.4.pdf"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf171a9d-a87b-4bc6-91f5-b444d540f88f")
+		)
+		(pin "2"
+			(uuid "61dc9a11-7e3d-4e65-9a86-9f94661c3e14")
+		)
+		(instances
+			(project ""
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 203.2 138.43 0)
 		(unit 1)
@@ -6651,53 +7151,56 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:Molex_SL_04")
-		(at 198.12 90.17 0)
+		(lib_id "Transistor_FET:BSS138")
+		(at 243.84 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "578bb155-56f1-4868-b27c-fdaf4fb0aeb8")
-		(property "Reference" "ISETConn1"
-			(at 201.93 83.8199 0)
+		(uuid "537981b1-0e74-46fa-8a0f-6207dbf0fa4b")
+		(property "Reference" "Q1"
+			(at 250.19 101.5999 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Molex_SL_04"
-			(at 201.93 86.3599 0)
+		(property "Value" "BSS138"
+			(at 250.19 104.1399 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
-			(at 198.12 90.17 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 248.92 104.775 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 198.12 90.17 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/nexperia-usa-inc/BSS138BK-215/2779825"
+			(at 248.92 106.68 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 198.12 90.17 0)
+			(at 243.84 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,22 +7208,19 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "1f4524dc-47d9-4392-bfd6-ba1243e3fe89")
-		)
 		(pin "2"
-			(uuid "b9788240-1249-44ab-82cd-4fd409059824")
-		)
-		(pin "3"
-			(uuid "722643f8-87b7-43d4-92f2-917544579202")
+			(uuid "1974ca1c-4d1d-47ff-8c6a-273138d29b80")
 		)
 		(pin "1"
-			(uuid "2c8372ab-f782-4d3f-8ac5-6df7441e4d00")
+			(uuid "80f5d0ee-16af-40c2-ae50-0f71d31965d1")
+		)
+		(pin "3"
+			(uuid "5b8cec07-4af8-4a1d-8a13-08a700e9f3f1")
 		)
 		(instances
 			(project ""
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "ISETConn1")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6863,6 +7363,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 246.38 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655c21f2-f5e2-4244-bf78-5f24387931b9")
+		(property "Reference" "#PWR021"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11a41915-2f17-48e1-9036-3e51e7f2949b")
+		)
+		(instances
+			(project ""
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 33.02 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6922,6 +7488,72 @@
 			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 246.38 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff19909-c572-492e-80e4-f8b827cb6364")
+		(property "Reference" "#PWR020"
+			(at 246.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6685ca1-7281-42ed-a6c7-10a1fa16760f")
+		)
+		(instances
+			(project ""
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7023,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+		(property "Footprint" "AutofluorescenceBoard:MOLEX_SL_02_Horizontal"
 			(at 198.12 113.03 0)
 			(effects
 				(font
@@ -7745,6 +8377,76 @@
 			(project ""
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 246.38 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "980a155b-b075-4493-b757-92ed3ec06c77")
+		(property "Reference" "R9"
+			(at 248.92 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5K"
+			(at 248.92 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AutofluorescenceBoard:RES_R0603_ROM-M"
+			(at 247.396 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ152/RHM1.5KDCT-ND/1983780"
+			(at 246.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 246.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cff11293-a089-40fd-8026-0702ff6db8ba")
+		)
+		(pin "2"
+			(uuid "ecd392a9-0ea5-481c-bb24-53fa2e418d81")
+		)
+		(instances
+			(project ""
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8790,6 +9492,85 @@
 			(project ""
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_05")
+		(at 198.12 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c079e9-ade5-442b-8d65-a436c7b4f7fb")
+		(property "Reference" "Conn1"
+			(at 201.93 78.7399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_05"
+			(at 201.93 81.2799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AutofluorescenceBoard:MOLEX_SL_05_Vertical_AF"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544d67d7-e86d-4560-bb24-e86373a3c31b")
+		)
+		(pin "5"
+			(uuid "3025773f-f6f0-4e40-86f5-6e940d94d741")
+		)
+		(pin "4"
+			(uuid "76662e5a-fca6-4d62-b0ad-8c53831afcc9")
+		)
+		(pin "2"
+			(uuid "27288e5d-58d0-4085-8757-ccdb52b5169c")
+		)
+		(pin "3"
+			(uuid "8927c529-3835-4e27-838e-1670c2fddfca")
+		)
+		(instances
+			(project ""
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "Conn1")
 					(unit 1)
 				)
 			)
