@@ -5611,7 +5611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/51054/dto25.pdf"
 			(at 40.64 129.54 0)
 			(effects
 				(font
@@ -6229,7 +6229,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "10K"
 			(at 281.94 43.942 0)
 			(effects
 				(font
