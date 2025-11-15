@@ -5594,7 +5594,7 @@
 				)
 			)
 		)
-		(property "Value" "0.3"
+		(property "Value" "0.15"
 			(at 41.91 125.73 0)
 			(effects
 				(font
@@ -5611,7 +5611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/51054/dto25.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf"
 			(at 40.64 129.54 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bel-fuse-inc/C2Q-375/615175"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/SF-0603S070-2/8747905?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOAJgBZ4CrqBWZkAXQIAcAXKEAMo8ATgEsAdgHMQAXwKxKCEMkjps%2BIqRC0ADJSrkO3PpEEiJ0uSGo6AHLaUq1uAsUhkA7Dp0ACALYAgkYgvPwAquKiPADyKACyOGhYAK7COLJW1FooybjBbNAhUGDcXFAsVvCFogAm-HAgxvxCYlKNIDwAnlzppknIMjJAA"
 			(at 121.92 129.54 0)
 			(effects
 				(font

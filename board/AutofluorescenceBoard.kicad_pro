@@ -463,7 +463,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "AutofluorescenceBoard"
+      "AutofluorescenceBoard",
+      "AF Board"
     ],
     "pinned_symbol_libs": [
       "AutofluorescenceBoard"
