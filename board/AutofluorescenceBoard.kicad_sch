@@ -9143,7 +9143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MRDT_Devices:SOD-123_ONS-L"
+		(property "Footprint" "AutofluorescenceBoard:DIO_MMSZ5221BT1G"
 			(at 255.27 52.07 0)
 			(effects
 				(font

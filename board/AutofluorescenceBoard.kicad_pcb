@@ -2681,6 +2681,203 @@
 			)
 		)
 	)
+	(footprint "AutofluorescenceBoard:DIO_MMSZ5221BT1G"
+		(layer "F.Cu")
+		(uuid "61bfc3c9-2cef-43fa-8d9d-49ba72fbe7b4")
+		(at 162.449 80.264)
+		(property "Reference" "D5"
+			(at 0.635 -1.905 0)
+			(layer "F.SilkS")
+			(uuid "9d7ed0f2-3ac8-45f5-9060-948262bdc278")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MMSZ5240BT1G"
+			(at 7.62 1.905 0)
+			(layer "F.Fab")
+			(uuid "ea38d6ac-d622-4ff4-8103-908a8831f19a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5843e4ad-0aaf-42a0-8d82-f443301cc4af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46474f06-a3de-4459-a1f1-1ffe93cd3e7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOD-123_ONS SOD-123_ONS-M SOD-123_ONS-L")
+		(path "/de06409e-add5-4d09-ac50-0f9c72d8adc9")
+		(sheetname "/")
+		(sheetfile "AutofluorescenceBoard.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.86 -0.8)
+			(end 0.86 -0.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "60a48b3d-8e23-4d8a-9089-cc4c181a26a4")
+		)
+		(fp_line
+			(start -0.86 0.8)
+			(end 0.86 0.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b39a796-4186-42b0-8865-cbc5707cf2cf")
+		)
+		(fp_circle
+			(center -2.6 0)
+			(end -2.5 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "24318c23-a5be-4dbe-a22c-8eb309ea4f09")
+		)
+		(fp_line
+			(start -2.34 -1.05)
+			(end 2.34 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91736604-cc49-4acf-ac8e-0712c70ed8aa")
+		)
+		(fp_line
+			(start -2.34 1.05)
+			(end -2.34 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc9a7972-55aa-48b3-9778-b36f0dffe66a")
+		)
+		(fp_line
+			(start 2.34 -1.05)
+			(end 2.34 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1729ef55-e9c7-4fa7-8ed8-133851839f9a")
+		)
+		(fp_line
+			(start 2.34 1.05)
+			(end -2.34 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0389a94-1609-46b2-91ca-560b8395ae13")
+		)
+		(fp_line
+			(start -1.345 -0.8)
+			(end -1.345 0.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6160566a-451f-4f17-96e8-167101b20897")
+		)
+		(fp_line
+			(start -1.345 0.8)
+			(end 1.345 0.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "15b32cf8-a3bd-4a77-923b-7f912e8e6d70")
+		)
+		(fp_line
+			(start 1.345 -0.8)
+			(end -1.345 -0.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7632333-3f4e-4907-89b5-cf2e49283cf0")
+		)
+		(fp_line
+			(start 1.345 0.8)
+			(end 1.345 -0.8)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f166fb08-28bb-44fb-8d1d-77b84d0e392f")
+		)
+		(fp_circle
+			(center -2.6 0)
+			(end -2.5 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7faca71e-a575-434e-a3ec-762fc3800f95")
+		)
+		(pad "1" smd rect
+			(at -1.635 0)
+			(size 0.91 1.22)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "+12V")
+			(pintype "unspecified")
+			(solder_mask_margin 0.102)
+			(uuid "5b41447d-06f6-42d4-ab3e-ca1aece4ae71")
+		)
+		(pad "2" smd rect
+			(at 1.635 0)
+			(size 0.91 1.22)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 19 "Net-(MOSFET1-GATE)")
+			(pintype "unspecified")
+			(solder_mask_margin 0.102)
+			(uuid "d5d56ff8-1772-41a6-a77a-211c690210a8")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Fuse:Fuse_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "62e6a8d1-ac76-4240-be8d-5017516b6e11")
