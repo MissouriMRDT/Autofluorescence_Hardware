@@ -1288,113 +1288,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3753,18 +3646,6 @@
 		(uuid "629c919c-2324-4089-b1dd-320e5661f3e2")
 	)
 	(junction
-		(at 104.14 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65d29768-4496-4a0a-9a0d-8386d3b75413")
-	)
-	(junction
-		(at 104.14 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "673408f8-2b42-4742-bde8-e81a36df7552")
-	)
-	(junction
 		(at 255.27 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3787,12 +3668,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f09412-b573-4f6c-be39-7e2adb10a92c")
-	)
-	(junction
-		(at 105.41 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84d80801-3aa8-4c4e-944f-7679970a9a20")
 	)
 	(junction
 		(at 107.95 39.37)
@@ -4036,16 +3911,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 21.59) (xy 104.14 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16b67e59-ae37-4ff0-8b8c-0e801e3df6a9")
-	)
-	(wire
-		(pts
 			(xy 238.76 44.45) (xy 242.57 44.45)
 		)
 		(stroke
@@ -4163,16 +4028,6 @@
 			(type default)
 		)
 		(uuid "2d835434-3aa1-47ec-a9ea-2f90a203524d")
-	)
-	(wire
-		(pts
-			(xy 118.11 129.54) (xy 105.41 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f985241-ff6b-49b4-9289-95f8dfd39119")
 	)
 	(wire
 		(pts
@@ -4826,7 +4681,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 21.59) (xy 116.84 21.59)
+			(xy 50.8 21.59) (xy 116.84 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4866,7 +4721,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 129.54) (xy 105.41 129.54)
+			(xy 50.8 129.54) (xy 118.11 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5216,7 +5071,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 77.47) (xy 104.14 77.47)
+			(xy 50.8 77.47) (xy 118.11 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5283,16 +5138,6 @@
 			(type default)
 		)
 		(uuid "e8c6b585-0a3d-42b8-b425-21254d2c1a9d")
-	)
-	(wire
-		(pts
-			(xy 50.8 77.47) (xy 104.14 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed3d48d1-3c97-41d4-b2f0-43329b356530")
 	)
 	(wire
 		(pts
@@ -5781,7 +5626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_863ECR_DIO"
+		(property "Footprint" "PAM2863ECR:SOIC_863ECR_DIO"
 			(at 63.5 144.78 0)
 			(effects
 				(font
@@ -5841,73 +5686,6 @@
 			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 104.14 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09b3f0ff-e4da-4dec-b514-9bd03b9b1db3")
-		(property "Reference" "TP2"
-			(at 106.68 72.8979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 106.68 75.4379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 104.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc7731f6-99ef-43e9-929c-bc5d1a104578")
-		)
-		(instances
-			(project "AutofluorescenceBoard"
-				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6073,7 +5851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMADO-214AC_MCC"
+		(property "Footprint" "AutofluorescenceBoard:SMADO-214AC_MCC"
 			(at 146.05 40.64 0)
 			(effects
 				(font
@@ -6488,7 +6266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_863ECR_DIO"
+		(property "Footprint" "PAM2863ECR:SOIC_863ECR_DIO"
 			(at 62.23 92.71 0)
 			(effects
 				(font
@@ -6722,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_863ECR_DIO"
+		(property "Footprint" "PAM2863ECR:SOIC_863ECR_DIO"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -6937,70 +6715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34a2ddcc-e000-4f45-b554-8142fcaf338a")
-		(property "Reference" "H3"
-			(at 205.74 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Drill_Holes:6_32_Hole_Corner"
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "AutofluorescenceBoard"
-				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 147.32 134.62 0)
 		(unit 1)
@@ -7061,70 +6775,6 @@
 			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b74ffd1-5a2b-4508-a3c3-a79d4c7ec7ac")
-		(property "Reference" "H2"
-			(at 205.74 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Drill_Holes:6_32_Hole_Corner"
-			(at 203.2 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7401,73 +7051,6 @@
 			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 105.41 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "642b24ee-b48d-4cdf-9a78-d8bb6a8265a6")
-		(property "Reference" "TP3"
-			(at 107.95 124.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 107.95 127.5079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 110.49 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 105.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5feb8dad-787c-425e-9ede-f18b934429c7")
-		)
-		(instances
-			(project "AutofluorescenceBoard"
-				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8379,7 +7962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMADO-214AC_MCC"
+		(property "Footprint" "AutofluorescenceBoard:SMADO-214AC_MCC"
 			(at 146.05 96.52 0)
 			(effects
 				(font
@@ -8565,6 +8148,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e703f43-539d-489a-98dc-78b522b8422c")
+		(property "Reference" "H3"
+			(at 205.74 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "AutofluorescenceBoard"
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 129.54 43.18 0)
 		(unit 1)
@@ -8662,7 +8309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMADO-214AC_MCC"
+		(property "Footprint" "AutofluorescenceBoard:SMADO-214AC_MCC"
 			(at 147.32 148.59 0)
 			(effects
 				(font
@@ -8701,73 +8348,6 @@
 			(project ""
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "CR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 104.14 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a74be238-28c9-4022-a2d0-f40fa2767b79")
-		(property "Reference" "TP1"
-			(at 106.68 17.0179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 106.68 19.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 109.22 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 104.14 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92d9c7af-2ed7-47e3-b3e8-ff6205f726cb")
-		)
-		(instances
-			(project ""
-				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9075,16 +8655,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 203.2 144.78 0)
+		(at 203.2 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c99ced41-1535-4e29-a566-ac14affa5112")
-		(property "Reference" "H4"
-			(at 205.74 143.5099 0)
+		(uuid "cb097dea-f797-4d0f-8304-7523317388de")
+		(property "Reference" "H2"
+			(at 205.74 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9093,7 +8673,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 146.0499 0)
+			(at 205.74 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,8 +8681,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:6_32_Hole_Corner"
-			(at 203.2 144.78 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 203.2 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +8691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 144.78 0)
+			(at 203.2 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +8700,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 144.78 0)
+			(at 203.2 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +8711,7 @@
 		(instances
 			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9165,7 +8745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:6_32_Hole_Corner"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
 			(at 203.2 125.73 0)
 			(effects
 				(font
@@ -9747,6 +9327,70 @@
 			(project ""
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "Conn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2c91c80-9ec9-42b4-ab83-e348f08f993d")
+		(property "Reference" "H4"
+			(at 205.74 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 203.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "AutofluorescenceBoard"
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "H4")
 					(unit 1)
 				)
 			)
