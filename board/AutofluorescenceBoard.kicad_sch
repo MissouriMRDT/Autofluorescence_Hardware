@@ -3741,6 +3741,12 @@
 		(uuid "55d6e14c-6498-4b2e-a79d-1a75f7fbba60")
 	)
 	(junction
+		(at 246.38 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58d5071b-c477-486f-b5ac-986f7663253b")
+	)
+	(junction
 		(at 50.8 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3915,6 +3921,12 @@
 		(uuid "ecafc303-64cd-4158-b4e5-ec4325ff3bc0")
 	)
 	(junction
+		(at 237.49 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef2313f-0344-4d7d-8c13-3f4b29a15de9")
+	)
+	(junction
 		(at 33.02 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3961,6 +3973,16 @@
 			(type default)
 		)
 		(uuid "0530fcad-ebc0-4e83-a1c6-3407b447543d")
+	)
+	(wire
+		(pts
+			(xy 237.49 102.87) (xy 238.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d8152e-fb41-4e1c-b3a7-2f47820768a9")
 	)
 	(wire
 		(pts
@@ -4164,7 +4186,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 102.87) (xy 238.76 102.87)
+			(xy 236.22 102.87) (xy 237.49 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4594,7 +4616,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 107.95) (xy 246.38 109.22)
+			(xy 246.38 107.95) (xy 246.38 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4644,6 +4666,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 110.49) (xy 246.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfbd6d4-d169-417a-b70e-06e5362563b3")
+	)
+	(wire
+		(pts
 			(xy 130.81 154.94) (xy 147.32 154.94)
 		)
 		(stroke
@@ -4661,6 +4693,16 @@
 			(type default)
 		)
 		(uuid "80827879-e120-47ce-b0bc-728ed1bfa8c2")
+	)
+	(wire
+		(pts
+			(xy 246.38 110.49) (xy 246.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826271a2-4358-4ab2-9f18-3fda4f875040")
 	)
 	(wire
 		(pts
@@ -6281,6 +6323,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 237.49 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "121177ef-9678-46d4-9c47-bd8f8a6f564f")
+		(property "Reference" "R10"
+			(at 240.03 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 240.03 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 238.506 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b70ac5cb-1709-451d-afea-6d717586b219")
+		)
+		(pin "1"
+			(uuid "6e6427c3-448a-4378-aa3e-00fa9d9a83de")
+		)
+		(instances
+			(project "AutofluorescenceBoard"
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 33.02 96.52 0)
 		(unit 1)
@@ -7363,7 +7475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 109.22 0)
+		(at 246.38 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7372,7 +7484,7 @@
 		(fields_autoplaced yes)
 		(uuid "655c21f2-f5e2-4244-bf78-5f24387931b9")
 		(property "Reference" "#PWR021"
-			(at 246.38 115.57 0)
+			(at 246.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 114.3 0)
+			(at 246.38 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +7501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 109.22 0)
+			(at 246.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +7510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 109.22 0)
+			(at 246.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7407,7 +7519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 109.22 0)
+			(at 246.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
