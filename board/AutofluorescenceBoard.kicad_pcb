@@ -10425,7 +10425,7 @@
 			(uuid "77df8205-cc57-4e9c-8570-8b84d181b139")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.08 0.93 0)
+			(at 4.8595 0.016 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "68305146-0b22-4eb3-ab94-1857e141fbfc")
@@ -10713,8 +10713,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "LED"
-			(at -0.369 2.794 0)
+		(property "Value" "WHT LED"
+			(at -0.242 2.667 0)
 			(layer "B.SilkS")
 			(uuid "ccc2d9b7-3790-436e-a779-7b614ae39632")
 			(effects
@@ -10770,17 +10770,6 @@
 		(sheetname "/")
 		(sheetfile "AutofluorescenceBoard.kicad_sch")
 		(attr smd)
-		(fp_circle
-			(center 1.72 -0.01)
-			(end 1.72 -0.02)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "B.SilkS")
-			(uuid "932c37ec-c3a2-4be4-8721-76be8a20e6d7")
-		)
 		(fp_line
 			(start 2.15 1.4)
 			(end 2.15 -1.4)
@@ -10789,7 +10778,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "8f0b8638-9100-402d-adab-f47ec12b67d2")
+			(uuid "0f1141ba-583a-4b47-b9c5-ab73909e59e6")
 		)
 		(fp_line
 			(start 2.15 -1.4)
@@ -10799,7 +10788,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "06224682-6919-4515-8694-3539466692c9")
+			(uuid "099e2632-816c-4e0a-a84d-6e58205bc06b")
 		)
 		(fp_line
 			(start -2.15 1.4)
@@ -10809,7 +10798,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "9184af1d-bc5c-4b34-8923-5c77afe59d66")
+			(uuid "9cfbeaf0-d079-4f4f-8021-cfafe2eb79b4")
 		)
 		(fp_line
 			(start -2.15 -1.4)
@@ -10819,7 +10808,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d42943ca-67c0-49d9-9d39-0a7c5280fc68")
+			(uuid "34a14da8-daa0-44bb-acee-26ef5287f686")
 		)
 		(fp_line
 			(start 0.8 0.4)
@@ -10829,7 +10818,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e4bf6a93-aa59-4f1e-9c14-7b3bb9c1c8dc")
+			(uuid "7c47b36b-7716-478d-8e88-bc5df9fcc64d")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -10839,7 +10828,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "60f34eb2-757c-4a90-8f93-7fae24be87e9")
+			(uuid "557e8797-11a8-4ac1-9810-1620feb35550")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -10849,7 +10838,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "9a69dfab-f504-4d00-98f9-a00e5f68fe1e")
+			(uuid "beb97a0e-476a-4ef6-9355-cd76e1fc3e44")
 		)
 		(fp_line
 			(start -0.8 -0.4)
@@ -10859,7 +10848,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d7624f15-fd67-4e26-be0b-cce6c573b10b")
+			(uuid "30381937-1bee-4023-aa8c-c0500e75fd92")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.19 -3.73 0)
