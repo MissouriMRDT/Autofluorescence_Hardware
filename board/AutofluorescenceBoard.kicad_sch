@@ -4266,16 +4266,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 109.22) (xy 190.5 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c730385-ee8a-4838-b161-7b199af3cf23")
-	)
-	(wire
-		(pts
 			(xy 238.76 43.18) (xy 238.76 44.45)
 		)
 		(stroke
@@ -4426,16 +4416,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 106.68) (xy 193.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554fb743-2c64-47ff-be34-c6a23aa61af2")
-	)
-	(wire
-		(pts
 			(xy 41.91 97.79) (xy 62.23 97.79)
 		)
 		(stroke
@@ -4473,16 +4453,6 @@
 			(type default)
 		)
 		(uuid "589b8ede-a909-4240-b6fc-f0cfc87dec73")
-	)
-	(wire
-		(pts
-			(xy 190.5 102.87) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d28371-9b95-485a-b4bc-09a2977af7f0")
 	)
 	(wire
 		(pts
@@ -5133,16 +5103,6 @@
 			(type default)
 		)
 		(uuid "bb6465b5-5be2-42ee-acb2-6d60d51c7c6e")
-	)
-	(wire
-		(pts
-			(xy 190.5 109.22) (xy 190.5 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c14f4e72-29b9-43b9-9d47-250a89128e6d")
 	)
 	(wire
 		(pts
@@ -6878,7 +6838,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "WHT LED"
 			(at 250.19 86.6774 90)
 			(effects
 				(font
@@ -9078,72 +9038,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc42a231-5452-4509-8e03-e42d773e4668")
-		(property "Reference" "#PWR017"
-			(at 190.5 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "673faff3-0e6d-4007-a80e-a189a6fd164c")
-		)
-		(instances
-			(project ""
-				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 212.09 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9203,72 +9097,6 @@
 			(project ""
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 190.5 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc6eb5dd-1b33-40b2-9f10-d8298550a6a8")
-		(property "Reference" "#PWR016"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 190.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 190.5 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "933c01b7-f419-4d92-a801-76780eb300f3")
-		)
-		(instances
-			(project ""
-				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
