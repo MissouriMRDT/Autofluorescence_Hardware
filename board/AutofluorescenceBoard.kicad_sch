@@ -8557,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "500nm"
+		(property "Value" "L1C2-CYN1000000000 500 nm"
 			(at 135.89 139.6999 0)
 			(effects
 				(font
@@ -8575,7 +8575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.roithner-laser.com/datasheets/led_highsingle/smb1n-490h.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lumileds_01-15-2025_DS565%20LUXEON%20C%20ES%20Color%20Line.pdf"
 			(at 130.81 139.7 0)
 			(effects
 				(font
