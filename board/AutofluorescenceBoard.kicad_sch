@@ -2081,6 +2081,88 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Connectors:4_40_Mounting_Hole_Pad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4_40_Mounting_Hole_Pad_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4_40_Mounting_Hole_Pad_1_1"
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_Connectors:Molex_SL_02"
 			(pin_names
 				(offset 1.016)
@@ -2921,89 +3003,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -5571,6 +5570,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 229.87 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00bb4ba5-de35-4bf9-a54b-48e702cfd754")
+		(property "Reference" "#PWR023"
+			(at 229.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33717277-dbb7-427c-bc07-a625c34db2f3")
+		)
+		(instances
+			(project "AutofluorescenceBoard"
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 176.53 121.92 90)
 		(unit 1)
@@ -5640,7 +5705,7 @@
 			(uuid "44bd6a0d-7782-45e6-8418-31aacd224184")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "D4")
 					(unit 1)
@@ -5777,7 +5842,7 @@
 			(uuid "0f0a4107-210d-4d29-b4bd-f188c8a8cfb4")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR013")
 					(unit 1)
@@ -6000,7 +6065,7 @@
 			(uuid "3ea4f7d5-cd48-4bba-a05e-bbf3a0690069")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#FLG02")
 					(unit 1)
@@ -6072,9 +6137,75 @@
 			(uuid "98761741-ba85-40ff-9050-39539596737e")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb16e1e-326d-47c5-bc9e-ab8e083834b4")
+		(property "Reference" "#PWR017"
+			(at 229.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36d190d2-5ade-4b0e-80fa-5c91cb4f4ee3")
+		)
+		(instances
+			(project "AutofluorescenceBoard"
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6138,7 +6269,7 @@
 			(uuid "2b2818f4-fcff-4bff-8062-66aeee622380")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR01")
 					(unit 1)
@@ -6207,7 +6338,7 @@
 			(uuid "c949e5a1-b238-472b-a20d-fea4cd8d1898")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "J1")
 					(unit 1)
@@ -6276,7 +6407,7 @@
 			(uuid "2a54bba0-91b0-4f8b-ad7c-b1a4d628491f")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "R8")
 					(unit 1)
@@ -6741,7 +6872,7 @@
 			(uuid "cb483752-f286-4949-88b8-6a75e3add5b2")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "U1")
 					(unit 1)
@@ -6811,7 +6942,7 @@
 			(uuid "3b7600a3-337c-4130-8c3c-7261700a8324")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "R7")
 					(unit 1)
@@ -6890,7 +7021,7 @@
 			(uuid "61dc9a11-7e3d-4e65-9a86-9f94661c3e14")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "D6")
 					(unit 1)
@@ -7164,7 +7295,7 @@
 			(uuid "5b8cec07-4af8-4a1d-8a13-08a700e9f3f1")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "Q1")
 					(unit 1)
@@ -7298,7 +7429,7 @@
 			(uuid "11a41915-2f17-48e1-9036-3e51e7f2949b")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR021")
 					(unit 1)
@@ -7430,7 +7561,7 @@
 			(uuid "a6685ca1-7281-42ed-a6c7-10a1fa16760f")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR020")
 					(unit 1)
@@ -7498,7 +7629,7 @@
 			(uuid "9c46688f-4496-42f0-8e8c-3f703579df04")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "F1")
 					(unit 1)
@@ -7569,7 +7700,7 @@
 			(uuid "affa4aa0-bf88-4277-be73-899b3b0174b1")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "FanConn1")
 					(unit 1)
@@ -7701,7 +7832,7 @@
 			(uuid "24388e9f-7db2-4bff-9846-f8f18d4ad781")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR010")
 					(unit 1)
@@ -7767,7 +7898,7 @@
 			(uuid "4e168a22-6992-4043-a350-ea4b2b84c0ef")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR014")
 					(unit 1)
@@ -7975,7 +8106,7 @@
 			(uuid "d28aa972-2d35-45d8-9ef4-74145c58edfd")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "R4")
 					(unit 1)
@@ -8041,7 +8172,7 @@
 			(uuid "35e2cf9d-8d12-4bb7-a03a-5755335ea28c")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR02")
 					(unit 1)
@@ -8111,7 +8242,7 @@
 			(uuid "7c14245e-08a2-42cf-8795-942a176414a1")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "C1")
 					(unit 1)
@@ -8183,7 +8314,7 @@
 			(uuid "94e4b71e-1d7b-4975-a936-4d4e67ea3b9e")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "CR2")
 					(unit 1)
@@ -8254,7 +8385,7 @@
 			(uuid "c22b1632-25df-4598-b546-4d2e2096e891")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "R2")
 					(unit 1)
@@ -8324,7 +8455,7 @@
 			(uuid "ecd392a9-0ea5-481c-bb24-53fa2e418d81")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "R9")
 					(unit 1)
@@ -8333,17 +8464,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 135.89 0)
+		(lib_id "power:GND")
+		(at 203.2 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "980f6f4e-57b7-41b6-8c44-d9e6b8f16106")
+		(property "Reference" "#PWR022"
+			(at 203.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a1abcab-f9fd-4e7b-8ee8-6ea14693bf23")
+		)
+		(instances
+			(project "AutofluorescenceBoard"
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 229.87 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e703f43-539d-489a-98dc-78b522b8422c")
 		(property "Reference" "H3"
-			(at 205.74 134.6199 0)
+			(at 232.41 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +8549,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 137.1599 0)
+			(at 232.41 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,8 +8557,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:M2_Hole"
-			(at 203.2 135.89 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad"
+			(at 229.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +8567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 135.89 0)
+			(at 229.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,13 +8576,16 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 135.89 0)
+			(at 229.87 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "43894d04-c9a9-4a81-9a6d-d5082d161afb")
 		)
 		(instances
 			(project "AutofluorescenceBoard"
@@ -8458,7 +8658,7 @@
 			(uuid "421b7c3f-2889-4c98-a3ea-3d46759d3008")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "L1")
 					(unit 1)
@@ -8530,7 +8730,7 @@
 			(uuid "2b252295-908c-4956-a8c0-05533c993880")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "CR3")
 					(unit 1)
@@ -8742,7 +8942,7 @@
 			(uuid "3acc2b82-6852-472a-a1ef-892be1b6e77d")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "D2")
 					(unit 1)
@@ -8830,7 +9030,7 @@
 			(uuid "dec2dfa2-1ffb-4f50-8385-01bdf35bd661")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "MOSFET1")
 					(unit 1)
@@ -8839,17 +9039,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 130.81 0)
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 203.2 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb097dea-f797-4d0f-8304-7523317388de")
 		(property "Reference" "H2"
-			(at 205.74 129.5399 0)
+			(at 205.74 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +9058,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 132.0799 0)
+			(at 205.74 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,8 +9066,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:M2_Hole"
-			(at 203.2 130.81 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad"
+			(at 203.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +9076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 130.81 0)
+			(at 203.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8885,13 +9085,16 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 130.81 0)
+			(at 203.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "8278f908-659a-4f9c-b707-030c01d61d98")
 		)
 		(instances
 			(project "AutofluorescenceBoard"
@@ -8903,11 +9106,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
 		(at 203.2 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8930,7 +9133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:M2_Hole"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad"
 			(at 203.2 125.73 0)
 			(effects
 				(font
@@ -8957,8 +9160,11 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "06ede52e-918c-4c87-86df-cc71b165dd78")
+		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "H1")
 					(unit 1)
@@ -9094,7 +9300,7 @@
 			(uuid "2c2d4a3d-ca62-4ac1-91c5-b09b9b94133e")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR019")
 					(unit 1)
@@ -9160,7 +9366,7 @@
 			(uuid "aa8f9849-ce3e-4f7a-8cb3-c9cc3ca467e6")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR07")
 					(unit 1)
@@ -9232,7 +9438,7 @@
 			(uuid "1bed0134-5686-42d9-a143-3dec62a17843")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "D5")
 					(unit 1)
@@ -9298,7 +9504,7 @@
 			(uuid "86d1caf9-d721-4b3f-8cef-cbed5fa92002")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#PWR015")
 					(unit 1)
@@ -9377,7 +9583,7 @@
 			(uuid "8927c529-3835-4e27-838e-1670c2fddfca")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "Conn1")
 					(unit 1)
@@ -9386,17 +9592,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 140.97 0)
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 229.87 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2c91c80-9ec9-42b4-ab83-e348f08f993d")
 		(property "Reference" "H4"
-			(at 205.74 139.6999 0)
+			(at 232.41 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +9611,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 205.74 142.2399 0)
+			(at 232.41 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9413,8 +9619,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:M2_Hole"
-			(at 203.2 140.97 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad"
+			(at 229.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9423,7 +9629,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 140.97 0)
+			(at 229.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9432,13 +9638,16 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 140.97 0)
+			(at 229.87 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "b45a0bfe-0ac3-4731-85c6-4e1b1668ce89")
 		)
 		(instances
 			(project "AutofluorescenceBoard"
@@ -9656,6 +9865,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 203.2 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f564393f-277a-449b-b46d-ddbc92d2c595")
+		(property "Reference" "#PWR016"
+			(at 203.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "144b54aa-7ff2-4f12-86f8-73f59afcdce1")
+		)
+		(instances
+			(project "AutofluorescenceBoard"
+				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 194.31 38.1 0)
 		(unit 1)
@@ -9713,7 +9988,7 @@
 			(uuid "2de0f599-d387-4e5d-8f20-d00373db448d")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "#FLG01")
 					(unit 1)
@@ -9784,7 +10059,7 @@
 			(uuid "8a526de4-6f25-4fb8-8ed6-93acf6232012")
 		)
 		(instances
-			(project ""
+			(project "AutofluorescenceBoard"
 				(path "/5b389890-df33-4c7e-a85b-dd964c46cf24"
 					(reference "R1")
 					(unit 1)
