@@ -1,0 +1,171 @@
+(footprint "MOLEX_SL_05_Vertical_AF"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.635 3.302 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d907a67b-57f0-4f82-abf1-32965f37b857")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOLEX_SL_5_Veritical"
+		(at 5.08 3.302 0)
+		(layer "F.Fab")
+		(uuid "b4422cce-ba77-47e0-8f0f-a60d119b06c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92ffefc1-b0b7-48fe-8c04-607240ede8e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36bb04f8-b984-4a66-8505-75eed3ecb10b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -4.064)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29c330bb-4d26-494b-bdb6-f83797877b55")
+	)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 12.7 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94ebde71-0a76-42c6-a8fe-39d905206a74")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc375bb2-5e26-4c30-93d5-2359c5358225")
+	)
+	(fp_line
+		(start 12.7 -4.064)
+		(end -2.54 -4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18417171-badd-40c2-8f4e-61d7aff6318c")
+	)
+	(fp_line
+		(start 12.7 -2.54)
+		(end 12.7 -4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfcd801d-b531-425f-914c-87560e247ac1")
+	)
+	(fp_line
+		(start 12.7 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "740e0f48-b898-489f-b8d8-d5ba61423e2b")
+	)
+	(fp_line
+		(start 12.7 2.54)
+		(end 12.7 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09892cde-0899-41b5-824b-6b182f5f6243")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.524 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1640419948)
+		(uuid "2059ff8a-1fee-4b35-ac78-d3d8e031c121")
+	)
+	(pad "2" smd roundrect
+		(at 2.54 0)
+		(size 1.524 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1640419948)
+		(uuid "f5b6bbf7-0ca1-4f3c-bbd1-ab03c6edf005")
+	)
+	(pad "3" smd roundrect
+		(at 5.08 0)
+		(size 1.524 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1640419948)
+		(uuid "23953d1f-d1b2-418e-a4cd-e40caa025dcd")
+	)
+	(pad "4" smd roundrect
+		(at 7.62 0)
+		(size 1.524 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1640419948)
+		(uuid "c0c73421-3b06-4bb2-a9df-288ccb70d813")
+	)
+	(pad "5" smd roundrect
+		(at 10.16 0)
+		(size 1.524 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1640419948)
+		(uuid "fcd89d26-8203-49de-b9ef-e0fa5cb2a425")
+	)
+	(embedded_fonts no)
+	(model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_05_Vertical.stp"
+		(offset
+			(xyz -2.539999962 -2.539999962 13.3349998)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

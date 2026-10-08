@@ -1,0 +1,143 @@
+(footprint "MOLEX_SL_02_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "FanConn1"
+		(at 1.27 2.54 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5ac83750-d2e5-4beb-bc6f-9029dcd0cb4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_SL_02"
+		(at 2.54 2.286 180)
+		(layer "F.Fab")
+		(uuid "20f2539d-c09d-430b-ad14-1d8fa14d22b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37307309-7a3e-439c-8aea-f276147c0472")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82831ae6-8ffe-4378-8525-2018517ff600")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 3.81 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e56b1713-2b81-4dd2-97f3-e7aa624c0da3")
+	)
+	(fp_line
+		(start -1.27 4.318)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fe27eb1-8ff1-40ad-a6b7-c745017b522c")
+	)
+	(fp_line
+		(start 3.81 -1.27)
+		(end 3.81 4.318)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16143afa-c788-4b5b-830f-70ddbb1eb48b")
+	)
+	(fp_line
+		(start 3.81 4.318)
+		(end -1.27 4.318)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72d22bd7-2de2-4f80-9dfe-9d0b02c90800")
+	)
+	(fp_line
+		(start 5.588 -1.27)
+		(end -2.794 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3912e270-2fec-4665-8f60-60183c7dd007")
+	)
+	(fp_text user "Board Edge"
+		(at 4.318 0.254 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13c3aff6-f416-4474-8def-e224184e0128")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 1.524)
+		(size 1.524 4.572)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1640419948)
+		(uuid "03a20e02-bc58-4661-9bf6-41ed57da07bc")
+	)
+	(pad "2" smd roundrect
+		(at 2.54 1.524)
+		(size 1.524 4.572)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1640419948)
+		(uuid "94b8134b-88fa-4eb6-926d-908635a398e1")
+	)
+	(embedded_fonts no)
+	(model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_02_Vertical.stp"
+		(offset
+			(xyz 5.100000011 14.90500001 -2.159)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
