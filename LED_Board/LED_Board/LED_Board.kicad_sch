@@ -459,7 +459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AF_Footprint:CUN06B1B"
 			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
