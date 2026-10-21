@@ -3798,7 +3798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2006b955-d2d4-47f1-a7b1-246863550008")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 232.41 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3820,7 +3820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
+		(property "Footprint" "MRDT_Devices:SOD-123_ONS-L"
 			(at 229.87 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3862,7 +3862,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4035,7 +4035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b0ceab4-053e-48bf-acc6-6d79d51786da")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 246.38 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +4105,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fb641e6-4926-45a3-be58-c2d9b4afdba0")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 122.936 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 123.19 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4153,7 +4153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/avx-corporation/SD0603S040S0R2/478-7798-1-ND/3749483"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/smc-diode-solutions/DSS14U/8341859"
 			(at 123.19 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4184,7 +4184,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4615,7 +4615,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 73.914 75.946 90)
 			(hide yes)
 			(show_name no)
@@ -4626,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753"
 			(at 74.93 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4752,7 +4752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72bac4cc-ed65-4ae5-b32b-88bcd8f537cf")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 121.92 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4820,7 +4820,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d47be11-c497-4bc4-b977-6a800010f54c")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 107.696 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5063,7 +5063,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5397,7 +5397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac31e788-2f88-48c1-9fb1-758cdbb6db95")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 218.44 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5462,7 +5462,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5657,7 +5657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 60.6552 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5668,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC31X5R226M35NT/18151064"
 			(at 59.69 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5797,7 +5797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf800834-3328-466c-9189-8f4bf8c79f1c")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 139.446 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5861,7 +5861,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
