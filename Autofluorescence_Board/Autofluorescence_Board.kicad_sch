@@ -2525,7 +2525,7 @@
 		(uuid "8d952248-b653-4f36-8041-9a49e4fc52cf")
 	)
 	(junction
-		(at 69.85 60.96)
+		(at 68.58 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9164f7d5-5669-4d45-88e2-6d69ea9a7c57")
@@ -2824,16 +2824,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 71.12 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d4f74c1-d1ba-4571-bb39-4f3063771987")
-	)
-	(wire
-		(pts
 			(xy 93.98 92.71) (xy 95.25 92.71)
 		)
 		(stroke
@@ -3124,6 +3114,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b20f24-8af5-4f48-9f24-4483f7b25bc5")
+	)
+	(wire
+		(pts
 			(xy 144.78 68.58) (xy 144.78 67.31)
 		)
 		(stroke
@@ -3164,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 110.49) (xy 69.85 110.49)
+			(xy 119.38 110.49) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3314,7 +3314,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 60.96) (xy 69.85 110.49)
+			(xy 68.58 60.96) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 75.184 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/PE0805DRE470R2L/17017889"
 			(at 74.93 60.96 0)
 			(hide yes)
 			(show_name no)
