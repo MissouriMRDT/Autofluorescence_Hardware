@@ -1197,9 +1197,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1209,29 +1206,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q2"
+				(at 8.89 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "A03401A"
+				(at 6.35 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1242,7 +1237,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3401A/1855773"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1443,24 +1438,6 @@
 				)
 			)
 			(symbol "Q_PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1471,7 +1448,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1489,7 +1466,25 @@
 							)
 						)
 					)
-					(number "S"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3695,7 +3690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17c3cc0d-c1fd-4d18-b3e7-fbf7e27f3585")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 116.84 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +3775,7 @@
 		(instances
 			(project "Autofluorescence_Board"
 				(path "/72deb9c7-3e3f-41e9-884c-65f2f5e1cc20"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5450,13 +5445,13 @@
 				)
 			)
 		)
-		(pin "D"
+		(pin "3"
 			(uuid "c721a22a-078d-4487-9d25-773f423de359")
 		)
-		(pin "G"
+		(pin "1"
 			(uuid "df6b71ab-0bda-4339-b750-ea2cf584facb")
 		)
-		(pin "S"
+		(pin "2"
 			(uuid "0388d2ec-4e79-4160-b07a-756f9f4f271b")
 		)
 		(instances
