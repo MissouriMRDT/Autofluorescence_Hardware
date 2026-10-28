@@ -14,7 +14,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "U1"
 				(at 22.86 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -34,8 +34,8 @@
 					)
 				)
 			)
-			(property "Footprint" "SOIC_863ECR_DIO"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:Diodes_SO-8EP"
+				(at -1.27 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -46,8 +46,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "PAM2863ECR"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/PAM2863ECR?qs=pYVYkI7xuRXLW6Fe66wa3w%3D%3D&utm_id=10957129881&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amercorp&gad_source=1&gad_campaignid=10957129881&gclid=CjwKCAjwotzWBhBFEiwA1JhPoJ7eXeCP1n9vMRbjtolV1BtqwhTLIWsrRgOsrPQ_K7fSvjvwSt5RshoC8UMQAvD_BwE"
+				(at 24.384 3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -294,6 +294,8 @@
 						)
 					)
 				)
+			)
+			(symbol "PAM2863ECR_1_1"
 				(pin unspecified line
 					(at 45.72 0 180)
 					(length 7.62)
@@ -304,7 +306,7 @@
 							)
 						)
 					)
-					(number "EPAD"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3711,7 +3713,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Diodes_SO-8EP"
-			(at 93.98 58.42 0)
+			(at 92.71 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,7 +3725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/PAM2863ECR?qs=pYVYkI7xuRXLW6Fe66wa3w%3D%3D&utm_id=10957129881&utm_source=google&utm_medium=cpc&utm_marketing_tactic=amercorp&gad_source=1&gad_campaignid=10957129881&gclid=CjwKCAjwotzWBhBFEiwA1JhPoJ7eXeCP1n9vMRbjtolV1BtqwhTLIWsrRgOsrPQ_K7fSvjvwSt5RshoC8UMQAvD_BwE"
-			(at 93.98 58.42 0)
+			(at 118.364 55.372 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,7 +3771,7 @@
 		(pin "7"
 			(uuid "3e92080b-82d3-4be9-a00a-e83b49a80ca3")
 		)
-		(pin "EPAD"
+		(pin "9"
 			(uuid "bed542be-4335-49ec-8d5e-5b08717f2b83")
 		)
 		(instances
