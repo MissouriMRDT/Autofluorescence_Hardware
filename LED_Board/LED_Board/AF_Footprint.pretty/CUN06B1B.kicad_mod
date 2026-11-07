@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+	(property "Reference" "D1"
+		(at 0.008767 -2.416 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c34fc2d7-2938-44c5-a7e4-4d6e45fdc710")
+		(uuid "6209749b-aaa7-4ad9-8181-3202d1e87798")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" ""
-		(at 0 1 0)
+	(property "Value" "405nm"
+		(at -0.127 -4.445 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "22cc28ee-28cc-4467-918d-a6127c62f606")
+		(uuid "07d71e12-01f5-4dd2-86fa-ed3cddca4fdb")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/seti-seoul-viosys/CUN06B1B/9997672"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b1107192-3635-4435-aa48-8a0f3d88e1ab")
+		(uuid "613164f8-3bcc-40a2-9804-58f56e1cca83")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Light emitting diode"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "94f1bae8-a1dc-4f79-bfbf-f722c3bbaa73")
+		(uuid "aea44eed-bcbd-400f-b8ac-91f2507d9470")
 		(effects
 			(font
 				(size 1 1)
@@ -53,57 +53,62 @@
 			)
 		)
 	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c8fd72f-ce97-4766-b4e8-f2fbd6b6cf01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+	(sheetname "/")
+	(sheetfile "LED_Board.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -9.875 -5.025)
-		(end -9.375 -1.725)
+		(start -0.65 -1.653)
+		(end 0.65 1.647)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.Cu")
-		(uuid "c3001c4b-d474-43e7-8678-a6df17017448")
+		(uuid "f502aa9d-ef72-45c8-91af-78cf35ac5d75")
 	)
-	(fp_rect
-		(start -8.875 -5.05)
-		(end -7.575 -1.75)
+	(fp_circle
+		(center -0.03 -0.010429)
+		(end 1.134703 1.005571)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "c3c412a2-882e-44b7-b4a9-2dcaebd9c132")
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e5a44662-d5ff-4aba-bb73-de80b2c5f4b6")
 	)
 	(fp_rect
-		(start -7.1 -5.05)
-		(end -6.6 -1.75)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "5a7474eb-191f-40e6-bbe2-5b17d3e4adf8")
-	)
-	(fp_rect
-		(start -10 -5.15)
-		(end -6.5 -1.65)
+		(start -1.775 -1.753)
+		(end 1.748 1.747)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "222f1405-2839-4e45-a07a-672e3b327499")
+		(uuid "c3b8515d-d326-425e-b64e-026cf75a5071")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 -6.096 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "dfcf5b6e-ff97-494d-8b40-2438a00ffa6c")
+		(uuid "4151678b-51ce-4d71-b8be-c62b8ccde5cd")
 		(effects
 			(font
 				(size 1 1)
@@ -111,5 +116,30 @@
 			)
 		)
 	)
+	(pad "1" smd roundrect
+		(at 1.380367 -0.003)
+		(size 0.489266 3.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "5fea89f7-88a9-435a-9c62-68ef2ff95d52")
+	)
+	(pad "2" smd roundrect
+		(at -1.398798 0.009507)
+		(size 0.502396 3.274986)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "97635162-908d-4c7d-8416-06c7ad8af16a")
+	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-XHP50_12V_HighDensity.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
