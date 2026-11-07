@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AF_Footprint") (type "KiCad") (uri "C:/GitHub/Autofluorescence_Hardware/LED_Board/LED_Board/AF_Footprint.pretty") (options "") (descr ""))
+)
