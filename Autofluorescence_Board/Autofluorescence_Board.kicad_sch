@@ -2781,16 +2781,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 125.73 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d8c96d-c627-40d8-bcf4-d42f0e5fe1cb")
-	)
-	(wire
-		(pts
 			(xy 245.11 102.87) (xy 218.44 102.87)
 		)
 		(stroke
@@ -2821,16 +2811,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 144.78 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0671bf8f-ac13-482c-9269-9fd43e846c76")
-	)
-	(wire
-		(pts
 			(xy 93.98 63.5) (xy 87.63 63.5)
 		)
 		(stroke
@@ -2858,6 +2838,16 @@
 			(type default)
 		)
 		(uuid "0d64d39a-38d3-41f3-b44d-3bd966392ecb")
+	)
+	(wire
+		(pts
+			(xy 123.19 86.36) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e70c6c1-8b71-4e1e-86bf-47d4c78ebe53")
 	)
 	(wire
 		(pts
@@ -2991,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 80.01) (xy 144.78 80.01)
+			(xy 125.73 80.01) (xy 144.78 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3081,16 +3071,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 80.01) (xy 123.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fa58d15-a357-4c50-9a8b-c08689f87680")
-	)
-	(wire
-		(pts
 			(xy 59.69 58.42) (xy 68.58 58.42)
 		)
 		(stroke
@@ -3108,6 +3088,16 @@
 			(type default)
 		)
 		(uuid "61070a6f-6740-4bac-a28c-d2ff9cbdbb09")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e77ef4-b119-4396-9e7b-edf7f7d545df")
 	)
 	(wire
 		(pts
@@ -3188,6 +3178,16 @@
 			(type default)
 		)
 		(uuid "89bc7216-27dd-4405-9d1a-45e7fa189289")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5c1fe8-4148-4050-bfe8-c77abf6f0c21")
 	)
 	(wire
 		(pts
@@ -4274,7 +4274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 257.81 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4596,7 +4596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 205.74 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4728,7 +4728,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 125.73 86.36 0)
+		(at 123.19 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4738,7 +4738,7 @@
 		(dnp no)
 		(uuid "521ca8fa-ed77-4763-8076-6d9cec47813b")
 		(property "Reference" "#PWR023"
-			(at 125.73 90.17 0)
+			(at 123.19 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4749,7 +4749,7 @@
 			)
 		)
 		(property "Value" "Vbat"
-			(at 125.73 82.804 0)
+			(at 123.19 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4759,7 +4759,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 125.73 86.36 0)
+			(at 123.19 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4770,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 86.36 0)
+			(at 123.19 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +4781,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 125.73 86.36 0)
+			(at 123.19 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5711,7 +5711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 246.0752 88.9 0)
 			(hide yes)
 			(show_name no)
