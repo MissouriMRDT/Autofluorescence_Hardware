@@ -4048,7 +4048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/MMSZ5240BT1G/919757"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SZMMSZ5240BT1G/3063362?s=N4IgTCBcDaILJwMoC0CsYAsAGAQgFQEYBxEAXQF8g"
 			(at 229.87 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4447,7 +4447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/smc-diode-solutions/DSS14U/8341859"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panjit-international-inc/SS2040FL-R1-00001/14660034"
 			(at 123.19 110.49 0)
 			(hide yes)
 			(show_name no)
