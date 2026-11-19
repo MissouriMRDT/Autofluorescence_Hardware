@@ -3877,7 +3877,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 2.9125 0 90)
+			(at 2.8975 0.635 90)
 			(layer "B.SilkS")
 			(uuid "43dcfad2-5286-48d1-a9c8-fe82d38532fb")
 			(effects
@@ -4041,7 +4041,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 1.68 180)
+			(at 2.921 0 180)
 			(layer "B.SilkS")
 			(uuid "521f4a8c-7d20-4d71-a7ea-839810421791")
 			(effects
@@ -4204,7 +4204,7 @@
 		(at 182.245 88.646 90)
 		(tags "MMSZ5240BT1G ")
 		(property "Reference" "D2"
-			(at -0.0508 -1.7526 270)
+			(at 0.127 -1.905 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "28c86ffe-c999-412b-8664-33a877f19703")
@@ -4683,7 +4683,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 2.54 0 0)
+			(at 2.921 0 0)
 			(layer "B.SilkS")
 			(uuid "3cee91a6-fde6-4073-b9e6-e869f8f53fea")
 			(effects
@@ -5235,7 +5235,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 2.921 0.127 0)
+			(at 3.048 0.127 0)
 			(layer "B.SilkS")
 			(uuid "f67e46f2-0a5c-4ef7-b822-816f9f74b8a8")
 			(effects
